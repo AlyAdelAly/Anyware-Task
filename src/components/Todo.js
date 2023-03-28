@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Input, Button } from "@material-tailwind/react";
+import { Input } from "@material-tailwind/react";
 import { connect } from 'react-redux';
 import { addTodos, completeTodos, removeTodos, updateTodos } from '../state/reducer';
 import { GoPlus } from 'react-icons/go';

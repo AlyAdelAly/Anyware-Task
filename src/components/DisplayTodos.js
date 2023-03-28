@@ -1,4 +1,3 @@
-import { Button } from '@material-tailwind/react';
 import React, { useState } from 'react'
 import { connect } from 'react-redux';
 import { addTodos, completeTodos, removeTodos, updateTodos } from '../state/reducer';
