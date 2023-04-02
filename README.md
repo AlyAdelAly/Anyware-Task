@@ -13,7 +13,6 @@
 - The whole challenge should be responsive and can fit to any screen size.
 - The application must be built using reusable components as much as you can.
 - Use CSS3 and your preferred server-side CSS pre-processing platforms, such as LESS and SASS.
-- The background and foreground of the links in the sidebar must be changed to white when the mouse hovers on it.
 - Prepare your application to be translated in the future using the i10n concept and packages.
 - Use your favorite test library to apply unit tests and integration tests to verify your code.
 - There is no restriction on the colors and the fonts. Use your own favorites. 
