@@ -17,12 +17,7 @@ const Search = () => {
 
         const data = await fetch(`http://localhost:8080/search/${phoneNumber}`,
             {
-                method: "GET",
-                redirect: "follow",
-                headers: {
-                    "Content-Type": "application/json",
-                    "apikey": "RWaBTbDTPXktxRyHSvsFxrKhxsmwwgT6"
-                }
+                method: "GET"
             })
             .catch(error => alert('error', error));
         const result = await data.json();
